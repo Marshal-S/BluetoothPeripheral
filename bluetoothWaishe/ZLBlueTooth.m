@@ -100,7 +100,7 @@ static NSString *writeCharacterUUID = @"13000000-0000-0000-0000-000000000000";
     if (error) return;
     [peripheral startAdvertising:@{
         CBAdvertisementDataServiceUUIDsKey: @[[CBUUID UUIDWithString:serviceUUID]],
-        CBAdvertisementDataLocalNameKey: [@"😂😂😂_" stringByAppendingString:@"123456"]
+        CBAdvertisementDataLocalNameKey: [@"marshal_" stringByAppendingString:@"123456"]
     }];
 }
 
